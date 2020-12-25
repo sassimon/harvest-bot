@@ -1,11 +1,4 @@
-$.ajax({
-    url: "https://sossimon.pythonanywhere.com/profiteintr%C3%A4ge",
-    type: "GET", /* or type:"GET" or type:"PUT" */
-    dataType: "json",
-    success: function(result){
-        console.log(result);
-    }
-});
+
 Highcharts.getJSON(
     'https://cdn.jsdelivr.net/gh/highcharts/highcharts@v7.0.0/samples/data/usdeur.json',
     function (data) {
