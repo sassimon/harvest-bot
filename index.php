@@ -12,7 +12,7 @@
 <figure class="highcharts-figure">
     <div id="container"></div>
 <?php
-
+echo "php";
 $api_url = 'http://sossimon.pythonanywhere.com/profiteintr%C3%A4ge';
 $json_data = file_get_contents($api_url);
 $response_data = json_decode($json_data);
